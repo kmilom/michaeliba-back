@@ -12,7 +12,7 @@ export const getAllQuestions = async (req, res) => {
     }
 }
 
-//Mostrar una pregunt
+//Mostrar una pregunta
 export const getQuestion = async (req, res) => {
     try{
         const question = await QuestionModel.findAll({

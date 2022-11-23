@@ -3,7 +3,7 @@ import { DataTypes } from "sequelize";
 
 const QuestionModel = db.define('questions', {
     question: { type: DataTypes.STRING },
-    assamblies_idassamblies: { type: DataTypes.NUMBER },
+    assamblies_id: { type: DataTypes.NUMBER },
 })
 
 export default QuestionModel;
